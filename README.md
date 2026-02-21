@@ -181,11 +181,6 @@ This project demonstrates:
 - Error Handling  
 - Real-world AI application development  
 
-Perfect for:
-- AI/ML Portfolio  
-- Internship Resume  
-- GitHub Showcase  
-
 ---
 
 ## Author
