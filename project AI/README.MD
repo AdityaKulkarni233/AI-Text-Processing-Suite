@@ -126,7 +126,7 @@ PROJECT AI
 ```
 
 
-## Test Example
+## Test Example in case of grammer checker
 
 Try this in Grammar Checker:
 
@@ -144,18 +144,18 @@ I went to the market and bought some apples yesterday.
 
 ## Common Issues & Fixes
 
-### ❌ "No valid response received"
+### "No valid response received"
 - Ensure Ollama is running
 - Ensure model name matches `ollama list`
 - Ensure `"stream": false` is set in backend
 
-### ❌ 404 /logo.png
+### 404 /logo.png
 - Make sure file exists inside `/static`
 - Check correct file path in HTML
 
 ---
 
-## 💡 Future Improvements
+## Future Improvements
 
 - Dark Mode  
 - Multiple Model Selection  
@@ -167,7 +167,7 @@ I went to the market and bought some apples yesterday.
 
 ---
 
-## 🎯 Why This Project?
+## Why This Project?
 
 This project demonstrates:
 
@@ -185,19 +185,18 @@ Perfect for:
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 Aditya Kulkarni  
-Data Science & AI Enthusiast  
 
 ---
 
-## ⭐ Support
+## Support
 
 If you found this useful, consider giving this repository a star on GitHub.
 
 ---
 
-## 📜 License
+## License
 
-This project is open-source under the MIT License.
+This project is open-source under the Apache 2.0 License.
