@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Tools</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<div class="layout">
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <h2>AI Tools</h2>
+        <a href="#" onclick="showSummarizer()" id="summarizerLink" class="active">Text Summarizer</a>
+        <a href="#" onclick="showGrammar()" id="grammarLink">Grammar Checker</a>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main">
+        <div class="card">
+
+            <div class="header">
+                <img src="/static/logo.png" class="logo" id="toolLogo">
+                <h1 id="toolTitle">AI Text Summarizer</h1>
+            </div>
+
+            <textarea id="inputText" placeholder="Enter your text here..."></textarea>
+
+            <button onclick="processText()" id="actionButton">Summarize</button>
+
+            <div class="result-card">
+                <div class="result-header">
+                    <h3>Result</h3>
+                    <div class="actions">
+                        <button onclick="copyText()">Copy</button>
+                        <button onclick="downloadText()">Download</button>
+                    </div>
+                </div>
+                <p id="outputText"></p>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
+<script src="/static/script.js"></script>
+</body>
+</html>
